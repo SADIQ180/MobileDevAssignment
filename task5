@@ -1,0 +1,9 @@
+// This program defines a function to sum two numbers and prints the results.
+fun sum(a: Int, b: Int): Int {
+    return a + b // Returns the sum of a and b
+}
+
+fun main() {
+    println("Sum of 3 and 5 is: " + sum(3, 5)) // Expected output: 8
+    println("Sum of 10 and 15 is: " + sum(10, 15)) // Expected output: 25
+}
