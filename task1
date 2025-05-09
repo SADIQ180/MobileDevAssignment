@@ -1,0 +1,4 @@
+// This program prints a simple greeting message to the console.
+fun main() {
+    println("Hello, Sadiq!") // Output will show: Hello, Sadiq!
+}
