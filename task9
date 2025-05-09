@@ -1,0 +1,11 @@
+// This program creates a map of student scores and filters those above 70.
+fun main() {
+    val scores = mapOf("Alice" to 85, "Bob" to 68, "Charlie" to 90, "Diana" to 72)
+
+    println("Students who scored above 70:")
+    for ((name, score) in scores) {
+        if (score > 70) {
+            println("$name: $score") // Outputs names and scores above 70
+        }
+    }
+}
