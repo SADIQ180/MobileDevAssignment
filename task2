@@ -1,0 +1,10 @@
+// This program asks for the user's name and age, then prints a greeting.
+fun main() {
+    print("Enter your name: ") // CMD will prompt: Enter your name:
+    val name = readLine() // Reads user's name from input
+
+    print("Enter your age: ") // CMD will prompt: Enter your age:
+    val age = readLine() // Reads user's age from input
+
+    println("Hello $name, you are $age years old!") // Prints a personalized greeting
+}
