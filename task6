@@ -1,0 +1,8 @@
+// This program creates an array of names and greets each one.
+fun main() {
+    val names = arrayOf("Alice", "Bob", "Charlie", "Diana", "Eve") // Array of 5 names
+
+    for (name in names) {
+        println("Hello, $name") // Prints greeting for each name
+    }
+}
