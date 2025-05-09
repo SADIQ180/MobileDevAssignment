@@ -1,0 +1,18 @@
+// This program demonstrates inheritance using Person and Student classes.
+open class Person(val name: String, val age: Int) {
+    open fun printDetails() {
+        println("Name: $name, Age: $age") // Parent class method
+    }
+}
+
+class Student(name: String, age: Int, val grade: String) : Person(name, age) {
+    override fun printDetails() {
+        super.printDetails()
+        println("Grade: $grade") // Additional property from child class
+    }
+}
+
+fun main() {
+    val student = Student("Sadiq", 21, "A")
+    student.printDetails()
+}
