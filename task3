@@ -1,0 +1,15 @@
+// This program checks whether a number entered by the user is even or odd.
+fun main() {
+    print("Enter a number: ") // CMD prompt
+    val number = readLine()?.toIntOrNull() // Converts input to an integer if valid
+
+    if (number != null) {
+        if (number % 2 == 0) {
+            println("$number is an even number.") // If divisible by 2
+        } else {
+            println("$number is an odd number.") // Otherwise, it's odd
+        }
+    } else {
+        println("Invalid input.") // Input wasn't a valid number
+    }
+}
