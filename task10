@@ -1,0 +1,5 @@
+// This program defines a lambda expression to multiply two integers.
+fun main() {
+    val multiply: (Int, Int) -> Int = { a, b -> a * b } // Lambda that multiplies two numbers
+    println("Product of 4 and 5 is: ${multiply(4, 5)}") // Expected output: 20
+}
